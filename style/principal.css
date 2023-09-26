@@ -1,0 +1,92 @@
+header {
+	background: url(../imagenes/tierra.jpg);
+	height: 300px;
+}
+
+header img {
+	height: 300px
+}
+
+nav {
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.caja {
+	width: 940px;
+	position: relative;
+	margin: 0px auto;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+ul img {
+	width: 250px;
+	margin: 35px;
+}
+
+ul p {
+	font-weight: bold;
+}
+
+.mobs {
+	margin: 30px;
+}
+
+.mobs li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+.mobs li:hover {
+	border-color: #C78C19;
+}
+
+.mobs li:hover h2 {
+	font-size: 40px;
+}
+
+.tipo {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer {
+	background: url(../imagenes/pieBedrock.jpg);
+	padding: 13px;
+}
+
+footer img {
+	position: relative;
+	left: 400px;
+}
+
+footer h1 {
+	text-align: center;
+	font-size: 20px;
+}
